@@ -18,22 +18,28 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
   <meta property="og:type" content="website" />
   <meta content="https://images.unsplash.com/photo-1782217193744-bed098daf981?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" property="og:image" />
   <title>Showcake</title>
-  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 
-  <nav>
-    <a href="#welcome">Home</a>
-    <a href="#about-paragraph">About</a>
-    <!--Add the products link here (Whatever this means)-->
-    <a href="#contact">Contact</a>
-  </nav>
 </head>
 
-<body>
+ <body>
   <header>
-    <section id="welcome">
+    <nav id="navbar">
+      <p class="tbd-logo">Logo goes here</p>
+      <ul class="nav-list">
+        <li><a href="#welcome" class="nav-a">Home</a></li>
+        <li><a href="#about-paragraph" class="nav-a">About</a></li>
+        <li><a href="#projects" class="nav-a">Projects</a></li>
+        <li><a href="#faq" class="nav-a">FAQ</a></li>
+        <li><a href="#profile-link" class="nav-a">Socials</a></li>
+      </ul>
+    </nav>
+
+    <section id="welcome-section">
       <div class="header">
-        <h2>Welcome to my website!</h2>
-        <h1>-. Showcake .-</h1>
+        <h1>Showcake</h1>
+        <img src="assets\images\ShowcaseV1.png" alt="Showcake" width="400">
+        <h2>By: Ace Flatwoods</h2>
         <h3>(WIP ATM)</h3>
       </div>
     </section>
@@ -50,17 +56,49 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
     </div>
   </section>
   <br>
+
+  <section id="project-section">
+    <h2 id="projects">Projects!</h2>
+    <div class="project-tile">
+      <a href="reallink123.com">
+        <img>
+        <p class="project-name">Lorem</p>
+      </a>
+    </div>
+
+    <div class="project-tile">
+        <a href="reallink123.com">
+        <img>
+        <p class="project-name">Ipsum</p>
+      </a>
+    </div>
+  </section>
   
-  <div class="project-image">
-    <figure>
-      <img src="assets/images/ShowcaseV1.png" alt="Showcake" width="400">
-      <figcaption><strong>Showcake</strong></figcaption>
-    </figure>
-  </div>
-</body>
-
-
   </main>
+
+  <footer>
+  <section id="FAQ">
+    <div class="FAQ">
+      <h2 id="faq">FAQ</h2>
+      <dl>
+        <dt>Question 1</dt>
+        <dd>Lorem Ipsum</dd>
+        <dt>Question 2</dt>
+        <dd>Lorem Ipsum</dd>
+        <dt>Question 3</dt>
+        <dd>Lorem Ipsum</dd>
+      </dl>
+    </div>
+  </section>
+
+  <a id="profile-link" href="https://github.com/AceFlatwoods" target="_blank">Mein Github</a>
+  <center><p><strong>Showcake<sup>1</sup> - Made by Ace Flatwoods - Started on 11/08/2026</strong></p></center>
+</footer>
+
+  </body>
+
+
+  
 
 <!----
 This just in case we ever need an address tag
@@ -88,20 +126,5 @@ And this for quotes on a block or whatevs
 
 Also remember to watch out for semantics when continuing to make the page mate, like nav or article
 -->
-<footer>
-  <section id="FAQ">
-    <div class="FAQ">
-      <dl>
-        <dt>Question 1</dt>
-        <dd>Lorem Ipsum</dd>
-        <dt>Question 2</dt>
-        <dd>Lorem Ipsum</dd>
-        <dt>Question 3</dt>
-        <dd>Lorem Ipsum</dd>
-      </dl>
-    </div>
-  </section>
 
-  <center><p><strong>Showcake<sup>1</sup> - Made by Ace Flatwoods - Started on 11/08/2026</strong></p></center>
-</footer>
 </html>

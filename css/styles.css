@@ -1,0 +1,88 @@
+:root{
+  --main-color: #25008b;
+  --background-color: aliceblue;
+  --background-color02: #d6d3ff;
+}
+
+body {
+  background-color: lightgray;
+  font-size: 17px;
+  margin: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+h1{
+  font-size: 4rem;
+  margin: 0;
+}
+
+h2{
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+#welcome-section{
+  height: 100vh;
+  background: linear-gradient(180deg, var(--background-color02), aliceblue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  /* border-bottom: 2px solid black; */
+}
+
+
+#navbar {
+  display: flex;
+  position: fixed;   
+  justify-content: flex-end;
+  top: 0;            
+  left: 0;
+  width: 100%; 
+  z-index: 99;
+  background-color: var(--main-color);
+  box-shadow: 0 2px 0 rgba(4, 0, 12, 0.596);
+}
+
+.nav-list{
+  display: flex;
+  margin-right: 2rem;
+}
+
+.tbd-logo{
+  margin-right: auto;
+  color: white;
+  padding: 0 10px;
+  font-size: 18px;
+}
+
+.nav-a{
+  text-decoration: none;
+  display: block;
+  padding: 0 1rem;
+  color: white;
+  font-size: 20px;
+}
+
+.nav-a:hover{
+  color: #d6d3ff;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: var(--background-color);
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-color: var(--background-color);
+    font-size: 17px;
+  }
+}
