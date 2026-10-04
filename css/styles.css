@@ -1,13 +1,22 @@
 :root{
   --main-color: #25008b;
-  --background-color: aliceblue;
+  --secondary-color: aliceblue;
+  --tertiary-color: aquamarine;
   --background-color02: #d6d3ff;
 }
 
+*{
+  color: #25008b;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 body {
-  background-color: lightgray;
   font-size: 17px;
   margin: 0;
+}
+
+a{
+  text-decoration: none;
 }
 
 ul{
@@ -24,6 +33,10 @@ h2{
   margin: 0;
 }
 
+.section-title{
+  margin: 0 auto 7vh auto;
+}
+
 #welcome-section{
   height: 100vh;
   background: linear-gradient(180deg, var(--background-color02), aliceblue);
@@ -33,7 +46,7 @@ h2{
   align-items: center;
   text-align: center;
   width: 100%;
-  /* border-bottom: 2px solid black; */
+  border-bottom: 2px solid black;
 }
 
 
@@ -56,16 +69,15 @@ h2{
 
 .tbd-logo{
   margin-right: auto;
-  color: white;
+  color: var(--secondary-color);
   padding: 0 10px;
   font-size: 18px;
 }
 
 .nav-a{
-  text-decoration: none;
   display: block;
   padding: 0 1rem;
-  color: white;
+  color: var(--secondary-color);
   font-size: 20px;
 }
 
@@ -73,16 +85,103 @@ h2{
   color: #d6d3ff;
 }
 
+.boring-paragraph{
+  box-shadow: 0 0 0 2px black;
+  padding: 50px 0;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+}
+
+#project-section{
+  box-shadow: 0 0 0 2px black;
+  padding: 50px 0;
+  margin: 0;
+  align-items: center;
+  text-align: center;
+}
+
+.project-tile-holder{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(29vw, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 95vw;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+.project-tile{
+  background-color: var(--main-color);
+}
+
+.project-name{
+  color: var(--secondary-color)
+}
+
+.project-tile img{
+  width: 100%;
+}
+
+#contact{
+  height: 90vh;
+  background: linear-gradient(0deg, var(--background-color02), aliceblue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  box-shadow: 0 0 0 2px black;
+}
+
+.footer{
+  background-color: var(--main-color);
+  padding: 2vh;
+}
+
+.footer p, .footer sup{
+  margin: 0;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
+.contact-links{
+  display: flex;
+  flex-direction: row;
+  margin: 30px 0;
+  gap: 0 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-btn{
+  width: auto;
+  height: 2vh;
+  background-color: var(--tertiary-color);
+  border: 2px solid var(--main-color);
+  border-radius: 4%;
+  padding: 10px;
+  transition: transform 0.3s ease-out, background-color 0.2s ease-out, color 0.2s ease-out, border 0.2s ease-out;
+}
+
+.profile-btn:hover{
+  background-color: var(--main-color);
+  color: var(--secondary-color);
+  border: 2px solid var(--tertiary-color);
+  transform: scale(1.3);
+}
+
 @media (min-width: 600px) {
   body {
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
     font-size: 16px;
   }
 }
 
 @media (min-width: 1024px) {
   body {
-    background-color: var(--background-color);
+    background-color: var(--secondary-color);
     font-size: 17px;
   }
 }

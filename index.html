@@ -27,11 +27,11 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
     <nav id="navbar">
       <p class="tbd-logo">Logo goes here</p>
       <ul class="nav-list">
-        <li><a href="#welcome" class="nav-a">Home</a></li>
+        <li><a href="#welcome-section" class="nav-a">Home</a></li>
         <li><a href="#about-paragraph" class="nav-a">About</a></li>
-        <li><a href="#projects" class="nav-a">Projects</a></li>
+        <li><a href="#project-section" class="nav-a">Projects</a></li>
         <li><a href="#faq" class="nav-a">FAQ</a></li>
-        <li><a href="#profile-link" class="nav-a">Socials</a></li>
+        <li><a href="#contact" class="nav-a">Socials</a></li>
       </ul>
     </nav>
 
@@ -46,40 +46,48 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
   </header>
 
   <main>
-  <br>
   <section id="about-paragraph">
     <div class="boring-paragraph">
+      <h2 class="section-title">About</h2>
       <p>This is a website I made specifically to re-learn the basics of web developing.</p>
       <p>I went to a <abbr title="High School">HS</abbr> with a specialized program in programming years ago but I feel like I never really reinforced that which I learned there, and I never had web development as one of my classes in university. </p>
       <p>So here I am trying to speedrun the process. Don't be patient with me, if you have a criticism, I encourage you to share it.</p>
       <p>As a note I am making this page without AI assistance, apologies for any typos or if it looks... Eh.</p>
     </div>
   </section>
-  <br>
 
   <section id="project-section">
-    <h2 id="projects">Projects!</h2>
-    <div class="project-tile">
-      <a href="reallink123.com">
-        <img>
-        <p class="project-name">Lorem</p>
-      </a>
+    <h2 class="section-title">Projects!</h2>
+
+    <div class="project-tile-holder">
+
+      <div class="project-tile">
+        <a href="#about">
+          <img src="assets/images/Project01.png">
+          <p class="project-name">Lorem</p>
+        </a>
+      </div>
+
+      <div class="project-tile">
+          <a href="#about">
+          <img src="assets/images/Project01.png">
+          <p class="project-name">Ipsum</p>
+        </a>
+      </div>
+
+      <div class="project-tile">
+          <a href="#about">
+          <img src="assets/images/Project01.png">
+          <p class="project-name">Dolor</p>
+        </a>
+      </div>
     </div>
 
-    <div class="project-tile">
-        <a href="reallink123.com">
-        <img>
-        <p class="project-name">Ipsum</p>
-      </a>
-    </div>
   </section>
-  
-  </main>
 
-  <footer>
-  <section id="FAQ">
-    <div class="FAQ">
-      <h2 id="faq">FAQ</h2>
+    <!-- <section id="FAQ">
+    <div id="faq" class="FAQ">
+      <h2 class="section-title">FAQ</h2>
       <dl>
         <dt>Question 1</dt>
         <dd>Lorem Ipsum</dd>
@@ -89,11 +97,26 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
         <dd>Lorem Ipsum</dd>
       </dl>
     </div>
-  </section>
+  </section> -->
+  
+  </main>
 
-  <a id="profile-link" href="https://github.com/AceFlatwoods" target="_blank">Mein Github</a>
-  <center><p><strong>Showcake<sup>1</sup> - Made by Ace Flatwoods - Started on 11/08/2026</strong></p></center>
-</footer>
+    <section id="contact">
+      <div class="header">
+        <h1>This is the end</h1>
+        <h3>My socials btw if you even care</h3>
+        <div class="contact-links">
+          <a class="profile-btn" href="https://github.com/AceFlatwoods" target="_blank">Github</a>
+          <a class="profile-btn" href="https://www.linkedin.com/in/aceflatwoods/" target="_blank">LinkedIn</a>
+          <a class="profile-btn" href="mailto:aceflatwoods@gmail.com" target="_blank">Email</a>
+          <a class="profile-btn" href="https://www.freecodecamp.org/fcc-83689c39-9c9b-4096-b9d9-83cb1a2b2aca" target="_blank">freeCodeCamp</a>
+        </div>
+      </div>
+    </section>
+
+  <footer class="footer">
+    <center><p>Showcake<sup>V3</sup> - Made by Ace Flatwoods - Started on 11/08/2026</p></center>
+  </footer>
 
   </body>
 
