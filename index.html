@@ -10,6 +10,31 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
 - b (You can use strong instead)
 -->
 
+<!-- To do:
+ 
+ 1.- Make it responsive, it looks horrible on phone interfaces
+ 1.1.- Specifically texts and backgrounds seem to be the main thing, mayhaps use screen rules if you need to
+ 1.2.- Also buttons seem to be a massive issue, rem is to be used
+ 
+ 2.- Get like, an actual logo, make it dissapear after a certain width to make space for the navbar 
+ 2.1.- By logo I mean both changing the navbar text and getting THE showcake logo, either commission Lizy or make it yourself 
+ 
+ 3.- !PRIORITY! Upload projects, at least 3 without counting the page (We'll count it later at some point when there's enough projects and padding is not seen as padding, not today though)
+ To be added: Union Weather Station, Lovecrafty Chocolate, Roblox Panda's Museum
+ To be added to Github: Dungeon Missing
+ To be made: Turret
+
+ 4.- Resize the image... The ratio is off, it is a square but it should be more of a slightly wide rectangle
+ 
+ 5.- Deploy it once allat is fixed
+
+ 
+ Future Changes:
+
+ 1.- Project menu with arrows, unsure of what this is called, kinda like a carrousel but one project tile at a time, you get it, we need to learn JS for this I believe
+
+ -->
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -25,7 +50,7 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
  <body>
   <header>
     <nav id="navbar">
-      <p class="tbd-logo">Logo goes here</p>
+      <p class="tbd-logo">S h o w c a k e</p>
       <ul class="nav-list">
         <li><a href="#welcome-section" class="nav-a">Home</a></li>
         <li><a href="#about-paragraph" class="nav-a">About</a></li>
@@ -47,12 +72,22 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
 
   <main>
   <section id="about-paragraph">
-    <div class="boring-paragraph">
-      <h2 class="section-title">About</h2>
-      <p>This is a website I made specifically to re-learn the basics of web developing.</p>
-      <p>I went to a <abbr title="High School">HS</abbr> with a specialized program in programming years ago but I feel like I never really reinforced that which I learned there, and I never had web development as one of my classes in university. </p>
-      <p>So here I am trying to speedrun the process. Don't be patient with me, if you have a criticism, I encourage you to share it.</p>
-      <p>As a note I am making this page without AI assistance, apologies for any typos or if it looks... Eh.</p>
+    <div class="div-holder">
+
+      <div class="boring-paragraph">
+        <h2>About</h2>
+        <p>This is a website I made specifically to re-learn the basics of web developing.</p>
+        <p>I went to a <abbr title="High School / CBTis051">HS</abbr> with a specialized program in programming years ago but I feel like I never really reinforced that which I learned there, and I never had web development as one of my classes in university. </p>
+        <p>So here I am trying to speedrun the process. Don't be patient with me, if you have a criticism, I encourage you to share it.</p>
+        <p>As a note I am making this page without AI assistance, apologies for any typos or if it looks... Eh.</p>
+        <p>Have a picture of me as a treat!</p>
+      </div>
+
+      <!-- Mayhaps we should randomize the Image at some point? Or at least clip it so it actually takes on the size of the container  -->
+      <div class="image-container"> 
+        <img class="image-contained color-image" src="assets\images\AceFlatwoods.png" alt="Ace Flatwoods">
+      </div>
+
     </div>
   </section>
 
@@ -115,7 +150,7 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
     </section>
 
   <footer class="footer">
-    <center><p>Showcake<sup>V3</sup> - Made by Ace Flatwoods - Started on 11/08/2026</p></center>
+    <center><p>Showcake<sup>V4</sup> - Made by Ace Flatwoods - Started on 11/08/2026</p></center>
   </footer>
 
   </body>
