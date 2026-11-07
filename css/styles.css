@@ -38,6 +38,10 @@ h2{
   font-weight: bold;
 }
 
+.alice{
+  color: aliceblue !important;
+}
+
 .section-title{
   margin: 0 auto 7vh auto;
 }
