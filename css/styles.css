@@ -4,6 +4,7 @@
   --secondary-color: aliceblue;
   --tertiary-color: aquamarine;
   --background-color02: #d6d3ff;
+  --background-color03: #a39fe0;
 }
 
 *{
@@ -151,6 +152,8 @@ h2{
 
 
 #project-section{
+  /* background: linear-gradient(180deg, var(--background-color02), var(--secondary-color), var(--background-color02)); */
+  background: radial-gradient(var(--secondary-color) 20%,var(--background-color02) 75%,var(--background-color03));
   box-shadow: 0 0 0 2px black;
   padding: 50px 0;
   margin: 2px 0 0 0;
