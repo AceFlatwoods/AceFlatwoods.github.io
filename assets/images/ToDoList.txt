@@ -14,6 +14,7 @@ Future Changes (For when we learn JS):
 Future Changes (In general)
 1.1.- Put the localizer selector on the navbar, not on the welcome section, that's where the changing phrases will go
 1.2.- Add sound effects to said localizer for funsies, maybe just like a Rule Brittania jingle when pressing EN and a Mexican National Anthem jingle when pressing ES
+2.- Localizer page version... Yeah we need to change it in the localizer each time, maybe don't put that part there?
 
 DONE:
 
