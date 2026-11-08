@@ -40,6 +40,10 @@ h2{
   font-weight: bold;
 }
 
+.padded{
+  padding: 0 1rem;
+}
+
 .alice{
   color: aliceblue !important;
 }
