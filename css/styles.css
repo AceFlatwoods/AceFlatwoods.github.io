@@ -105,6 +105,10 @@ h2{
   height: 40px;
 }
 
+.showcake-img{
+  width: 400px;
+}
+
 .nav-a{
   display: block;
   padding: 0 1rem;
@@ -336,9 +340,14 @@ h2{
   justify-content: center;
   }
 
-  .tbd-logo{
-  display: none;
-}
+    .tbd-logo{
+    display: none;
+  }
+
+  #welcome-section{
+    overflow: hidden;
+  }
+
   .boring-paragraph *{
   font-size: 4vw;
   }
