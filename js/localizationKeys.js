@@ -41,7 +41,7 @@ var data = {
                 "Q07_A1": "Contact me thru my <a href=\"#contact\" class=\"bold\">Socials</a>! Or wait for the anonymous messaging integration I'll add at some point... When I eventually learn JS, as this page is almost pure HTML and CSS right now, with the sole exception of a localizer script I made without knowing JS, which is why it took me 4 hours to finish it.",
                 "END_TEXT": "This is the end",
                 "SOCIALS_TEXT": "Lo and behold, my socials",
-                "FOOTER_TEXT": "Showcake<sup>V6.2</sup> - Made by Ace Flatwoods - Started on 10/04/2026",
+                "FOOTER_TEXT": "Showcake<sup>V7</sup> - Made by Ace Flatwoods - Started on 10/04/2026",
                 
                 "CARCOSA": "",
                 "NA": "The End"
@@ -86,7 +86,7 @@ var data = {
                 "Q07_A1": "Contactame a traves de mis <a href=\"#contact\" class=\"bold\">Redes Sociales</a>! O espera a la integracion de mensajeria anonima que añadire a esta pagina en algun punto... Cuando aprenda JS, justo ahora esta pagina es casi totalmente HTML y CSS, a excepcion de un localizer que me tomo 4 horas hacer en JS debido a que no se absolutamente nada de JS.",
                 "END_TEXT": "Este es el fin",
                 "SOCIALS_TEXT": "Contempla, mis redes sociales!",
-                "FOOTER_TEXT": "Showcake<sup>V6.2</sup> - Hecho por Ace Flatwoods - Iniciado el 10/04/2026",
+                "FOOTER_TEXT": "Showcake<sup>V7</sup> - Hecho por Ace Flatwoods - Iniciado el 10/04/2026",
                 
                 "CARCOSA": "LostCarcosa",
                 "NA": "El Fin"
