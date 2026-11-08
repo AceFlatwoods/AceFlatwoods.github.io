@@ -57,7 +57,7 @@ h2{
   align-items: center;
   text-align: center;
   width: 100%;
-  border-bottom: 2px solid black;
+  box-shadow: 0 0 0 2px black;
 }
 
 .language-btn{
@@ -239,6 +239,7 @@ h2{
   flex-direction: column;
   flex: 0 0 70%;
   box-sizing: border-box;
+  box-shadow: 0 0 0 2px black;
 }
 
 .faq-paragraph *{
@@ -283,6 +284,7 @@ h2{
   background-color: var(--main-color);
   padding: 2vh;
   text-align: center;
+  box-shadow: 0 0 0 2px var(--main-color);
 }
 
 .footer p, .footer sup{
