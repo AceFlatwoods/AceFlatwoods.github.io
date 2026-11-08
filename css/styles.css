@@ -23,6 +23,7 @@ a{
 
 ul{
   list-style: none;
+  padding-inline-start: 5px;
 }
 
 h1{
@@ -322,15 +323,24 @@ h2{
     font-size: 16px;
   }
   .nav-a{
-    padding: 2vw;
-    font-size: 4vw;
+    padding: 1.5vw;
+    font-size: 4cqw;
   }
+  .nav-list{
+  width: 100%;
+  margin-right: 0;
+  justify-content: center;
+  }
+
+  .tbd-logo{
+  display: none;
+}
   .boring-paragraph *{
   font-size: 4vw;
-}
+  }
   .boring-paragraph h2{
   font-size: 6vw;
-}
+  }
 
 .project-tile-holder{
     grid-template-columns: 1fr;
