@@ -8,36 +8,19 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
 - big
 - i (You can use em instead)
 - b (You can use strong instead)
+
+br seems to be on a gray area though, still, don't overuse it
 -->
-
-<!-- To do:
- 
- 2.- Get like, an actual logo, make it dissapear after a certain width to make space for the navbar 
- 2.1.- By logo I mean both changing the navbar text and getting THE showcake logo, either commission Lizy or make it yourself 
- 
- DONE 3.- !PRIORITY! Upload projects, at least 3 without counting the page (We'll count it later at some point when there's enough projects and padding is not seen as padding, not today though)
- To be added: Union Weather Station, Lovecrafty Chocolate, Roblox Panda's Museum
- To be added to Github: Dungeon Missing
- To be made: Turret
-
- 5.- Deploy it once allat is fixed
-
- 
- Future Changes (For when we learn JS):
-
- 1.- Project menu with arrows, unsure of what this is called, kinda like a carrousel but one project tile at a time, you get it, we need to learn JS for this I believe
- 2.- Also modals for the projects
- 3.- Also a changing image and some changing phrase somewhere, maybe at the start where it says WIP
- -->
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Page made as a project showcase for I, Ace Flatwoods, also made to re-learn web development." />
-  <meta content="freeCodeCamp.org" property="og:title" />
+  <meta name="description" content="Page made as a project showcase for I, Ace Flatwoods. Also made to re-learn web development." />
+  <meta content="Showcake!" property="og:title" />
   <meta property="og:type" content="website" />
-  <meta content="https://images.unsplash.com/photo-1782217193744-bed098daf981?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" property="og:image" />
+  <meta content="https://images.unsplash.com/photo-1702925614886-50ad13c88d3f?q=80&w=789&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D" property="og:image" />
+
   <title>Showcake</title>
+
   <link rel="stylesheet" href="css/styles.css" />
 
 </head>
@@ -46,12 +29,13 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
   <header>
     <nav id="navbar">
       <p class="tbd-logo">S h o w c a k e</p>
+
       <ul class="nav-list">
-        <li><a href="#welcome-section" class="nav-a">Home</a></li>
-        <li><a href="#about-paragraph" class="nav-a">About</a></li>
-        <li><a href="#project-section" class="nav-a">Projects</a></li>
-        <li><a href="#faq" class="nav-a">FAQ</a></li>
-        <li><a href="#contact" class="nav-a">Socials</a></li>
+        <li><a href="#welcome-section" class="nav-a" localizer="NAVBAR_HOME">Home</a></li>
+        <li><a href="#about-paragraph" class="nav-a" localizer="NAVBAR_ABOUT">About</a></li>
+        <li><a href="#project-section" class="nav-a" localizer="NAVBAR_PROJECTS">Projects</a></li>
+        <li><a href="#faq" class="nav-a" localizer="NAVBAR_FAQ">FAQ</a></li>
+        <li><a href="#contact" class="nav-a" localizer="NAVBAR_SOCIALS">Socials</a></li>
       </ul>
     </nav>
 
@@ -59,8 +43,12 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
       <div class="header">
         <h1>Showcake</h1>
         <img src="assets\images\ShowcakeV3.png" alt="Showcake" width="400">
-        <h2>By: Ace Flatwoods</h2>
-        <h3>(WIP ATM)</h3>
+        <h2 localizer="BY">By: Ace Flatwoods</h2>
+        <h3 localizer="LANGUAGE_PICK">-. Choose a language .-</h3>
+        <div class="langWrap">
+          <a href="#" language='english' class="active language-btn">EN</a>
+          <a href="#" language='spanish' class="language-btn">ES</a>
+        </div>
       </div>
     </section>
   </header>
@@ -70,12 +58,12 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
     <div class="div-holder">
 
       <div class="boring-paragraph">
-        <h2>About</h2>
-        <p>This is a website I made specifically to re-learn the basics of web developing.</p>
-        <p>I went to a <abbr title="High School / CBTis051">HS</abbr> with a specialized program in programming years ago but I feel like I never really reinforced that which I learned there, and I never had web development as one of my classes in university. </p>
-        <p>So here I am trying to speedrun the process. If you have any criticism, I encourage you to share it.</p>
-        <p>As a note I am making this page without AI assistance, just good 'ole documentation, code re-using and whatever my damaged brain manages to learn from 10 year old videos with horrible audio quality, apologies for any typos or if it looks... <i>Eh.</i></p>
-        <p>Have a picture of me as a treat!</p>
+        <h2 localizer="ABOUT_TITLE">About</h2>
+        <p localizer="DESCRIPTION_ABOUT_01">This is a website I made specifically to re-learn the basics of web developing.</p>
+        <p localizer="DESCRIPTION_ABOUT_02">I went to a <abbr title="High School / CBTis051">HS</abbr> with a specialized program in programming years ago but I feel like I never really reinforced that which I learned there, and I never had web development as one of my classes in university.</p>
+        <p localizer="DESCRIPTION_ABOUT_03">So here I am trying to speedrun the process. If you have any criticism, I encourage you to share it.</p>
+        <p localizer="DESCRIPTION_ABOUT_04">As a note I am making this page without AI assistance, just good 'ole documentation, code re-using and whatever my damaged brain manages to learn from 10 year old videos with horrible audio quality, apologies for any typos or if it looks... <em>Eh.</em></p>
+        <p localizer="DESCRIPTION_ABOUT_05">Have a picture of me as a treat!</p>
       </div>
 
       <!-- Mayhaps we should randomize the Image at some point? Or at least clip it so it actually takes on the size of the container  -->
@@ -87,7 +75,7 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
   </section>
 
   <section id="project-section">
-    <h2 class="section-title">Projects!</h2>
+    <h2 class="section-title" localizer="PROJECTS_TITLE">Projects!</h2>
 
     <div class="project-tile-holder">
 
@@ -115,33 +103,33 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
       </div>
     </div> -->
     </div>
-    <p class="bold">Yup, that's all of them for now, come back later to see more.</p>
+    <p class="bold" localizer="PROJECT_END_TEXT">Yup, that's all of them for now, come back later to see more.</p>
   </section>
 
     <section id="faq">
       <div class="faq-paragraph">
         <h2>FAQ</h2>
-        <p class="faq-question">"Who are you?"</p>
-        <p>My name's <b class="alice">Ace Flatwoods</b>! <br> I also go by <b class="alice">Panda</b> and <b class="alice">Alice Nevermind</b> in other places.<br> None of those are my real name of course but I'd rather be called any of those names than being called by my real name, you figure out why.
+        <p class="faq-question" localizer="QUESTION_01">"Who are you?"</p>
+        <p localizer="Q01_A1">My name's <strong class="alice">Ace Flatwoods</strong>! <br> I also go by <strong class="alice">Panda</strong> and <strong class="alice">Alice Nevermind</strong> in other places.<br> None of those are my real name of course but I'd rather be called any of those names than being called by my real name, you figure out why.</p>
           <ul class="faq-list">
-            <li>I'm a Software Engineering student (At least for the next year).</li> 
-            <li>I live in some seaside town in the north parts of Mexico.</li>
-            <li>I like gaming, coding and animating stuff, a shame that AI took the fun out of those 3 things. </li>
-            <li>I dislike anything that comes out of the sea, baseball caps and hot climates.</li>
-          </p></ul>
+            <li localizer="Q01_A2">I'm a Software Engineering student (At least for the next year).</li> 
+            <li localizer="Q01_A3">I live in some seaside town in the north parts of Mexico.</li>
+            <li localizer="Q01_A4">I like gaming, coding and animating stuff, a shame that AI took the fun out of those 3 things. </li>
+            <li localizer="Q01_A5">I dislike anything that comes out of the sea, baseball caps and hot climates.</li>
+          </ul>
         
-        <p class="faq-question">"What's this page?"</p>
-        <p>See <a href="#about-paragraph" class="bold">About</a> section, but as for it's practical purpose not even I'm sure. It's too personal and basic for a CV page but that's what it was originally supposed to be, guess it's just a showcase... Omg that's why it's called Showcake!!1! (I genuinely forgot)</p>
-        <p class="faq-question">"What's with this color scheme?"</p>
-        <p>I've been using a similar scheme to this one for a lot of projects ever since I started coding, it reminds me of pistachio ice cream, mint chocolate bar wrappers and blueberries. <br>3 things that I've tried once and decided I disliked flavour-wise but loved looks-wise. Just don't look at the page for too long, lest your eyes be strained.<br>There's also that blueish white color you see, that's <b class="alice">Aliceblue!</b> I've always liked the name "<i class="alice bold">Alice</i>", no other reason for it's use.</p>
-        <p class="faq-question">"Where can I find you? I'll give you a job And/Or Stalk you"</p>
-        <p>See <a href="#contact" class="bold">Socials</a> section, don't hesitate to add me or send me a message in any of 'em, I am terribly bored and in need of a diversion. Albeit it must be known I am also busy lately.</p>
-        <p class="faq-question">"You are doxxing yourself!!!"</p>
-        <p>Of course, that's the purpose of social media and by extension, this page.</p>
-        <p class="faq-question">"Wait you're from Mexico, why are you speaking English?"</p>
-        <p>Due to communication issues I find that English makes it a lot easier to communicate my thoughts compared to Spanish, which, fun fact, while it is my native language, most people think I am not from around these parts, they can't even pin point my accent for crying out loud!</p>
-        <p class="faq-question">"None of the questions I had were on your imaginary FAQ mate"</p>
-        <p>Contact me thru my <a href="#contact" class="bold">Socials</a>! Or wait for the anonymous messaging integration I'll add at some point... When I learn JS, as this page is pure HTML and CSS right now.</p>
+        <p class="faq-question" localizer="QUESTION_02">"What's this page?"</p>
+        <p localizer="Q02_A1">See <a href="#about-paragraph" class="bold">About</a> section, but as for it's practical purpose not even I'm sure. It's too personal and basic for a CV page but that's what it was originally supposed to be, guess it's just a showcase... Omg that's why it's called Showcake!!1! (I genuinely forgot)</p>
+        <p class="faq-question" localizer="QUESTION_03">"What's with this color scheme?"</p>
+        <p localizer="Q03_A1">I've been using a similar scheme to this one for a lot of projects ever since I started coding, it reminds me of pistachio ice cream, mint chocolate bar wrappers and blueberries. <br>3 things that I've tried once and decided I disliked flavour-wise but loved looks-wise. Just don't look at the page for too long, lest your eyes be strained.<br>There's also that blueish white color you see, that's <strong class="alice">Aliceblue!</strong> I've always liked the name "<em class="alice bold">Alice</em>", no other reason for it's use.</p>
+        <p class="faq-question" localizer="QUESTION_04">"Where can I find you? I'll give you a job And/Or Stalk you"</p>
+        <p localizer="Q04_A1">See <a href="#contact" class="bold">Socials</a> section, don't hesitate to add me or send me a message in any of 'em, I am terribly bored and in need of a diversion. Albeit it must be known I am also busy lately.</p>
+        <p class="faq-question" localizer="QUESTION_05">"You are doxxing yourself!!!"</p>
+        <p localizer="Q05_A1">Of course, that's the purpose of social media and by extension, this page.</p>
+        <p class="faq-question" localizer="QUESTION_06">"Wait you're from Mexico, why are you speaking English?"</p>
+        <p localizer="Q06_A1">Due to communication issues I find that English makes it a lot easier to communicate my thoughts compared to Spanish, which, fun fact, while it is my native language, most people think I am not from around these parts, they can't even pin point my accent for crying out loud!</p>
+        <p class="faq-question" localizer="QUESTION_07">"None of the questions I had were on your imaginary FAQ mate"</p>
+        <p localizer="Q07_A1">Contact me thru my <a href="#contact" class="bold">Socials</a>! Or wait for the anonymous messaging integration I'll add at some point... When I eventually learn JS, as this page is almost pure HTML and CSS right now, with the sole exception of a localizer script I made without knowing JS, which is why it took me 4 hours to finish it.</p>
       </div>
     </div>
   </section>
@@ -150,8 +138,8 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
 
     <section id="contact">
       <div class="header">
-        <h1>This is the end</h1>
-        <h3>Lo and behold, my socials</h3>
+        <h1 localizer="END_TEXT">This is the end</h1>
+        <h3 localizer="SOCIALS_TEXT">Lo and behold, my socials</h3>
         <div class="contact-links">
           <a class="profile-btn" href="https://github.com/AceFlatwoods" target="_blank">Github</a>
           <a class="profile-btn" href="https://www.linkedin.com/in/aceflatwoods/" target="_blank">LinkedIn</a>
@@ -163,9 +151,12 @@ As a note some of the stuff that you used to use and shouldn't use in HTML but i
     </section>
 
   <footer class="footer">
-    <center><p>Showcake<sup>V5.2</sup> - Made by Ace Flatwoods - Started on 10/04/2026</p></center>
+    <p localizer="FOOTER_TEXT">Showcake<sup>V6</sup> - Made by Ace Flatwoods - Started on 10/04/2026</p>
   </footer>
 
+  <!-- JS Scripts go here -->
+  <script src="js\localizationKeys.js"></script>
+  <script src="js\localizationHandler.js"></script>
   </body>
 
 

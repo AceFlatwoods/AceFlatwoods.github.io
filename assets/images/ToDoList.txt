@@ -1,0 +1,33 @@
+TO DO:
+ 
+2.- Get like, an actual logo, make it dissapear after a certain width to make space for the navbar 
+2.1.- By logo I mean both changing the navbar text and getting THE showcake logo, either commission Lizy or make it yourself 
+
+5.- Deploy it once allat is fixed
+
+Future Changes (For when we learn JS):
+
+1.- Project menu with arrows, unsure of what this is called, kinda like a carrousel but one project tile at a time, you get it, we need to learn JS for this I believe
+2.- Also modals for the projects
+3.- Also a changing image and some changing phrase somewhere, maybe at the start where it says WIP
+
+Future Changes (In general)
+1.1.- Put the localizer selector on the navbar, not on the welcome section, that's where the changing phrases will go
+1.2.- Add sound effects to said localizer for funsies, maybe just like a Rule Brittania jingle when pressing EN and a Mexican National Anthem jingle when pressing ES
+
+DONE:
+
+!PRIORITY! Upload projects, at least 3 without counting the page (We'll count it later at some point when there's enough projects and padding is not seen as padding, not today though)
+To be added: Union Weather Station, Lovecrafty Chocolate, Roblox Panda's Museum
+To be added to Github: Dungeon Missing
+To be made: Turret
+
+Made a localizer... In JS... Before learning JS... This might come to bite me back later.
+
+----------
+
+On the far future:
+Voting system (For what I should learn next)
+Blog page
+Random images page, why not
+An AI generated page like this one, not because I want to make it, but because it probably adds value to a curriculum vitae

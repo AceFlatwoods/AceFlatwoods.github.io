@@ -1,0 +1,1 @@
+// This will be a script that picks randomly from a list of texts and will show up in index.html every time it refreshes, or at least that's the idea
