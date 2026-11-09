@@ -15,7 +15,7 @@ var data = {
                 
                 "ABOUT_TITLE": "About",
                 "DESCRIPTION_ABOUT_01": "This is a website I made specifically to re-learn the basics of web developing.",
-                "DESCRIPTION_ABOUT_02": "I went to a <abbr title=\"High School / CBTis051\">HS</abbr> with a specialized program in programming years ago but I feel like I never really reinforced that which I learned there, and I never had web development as one of my classes in university.",
+                "DESCRIPTION_ABOUT_02": "I went to a <abbr title=\"High School / CBTis\">HS</abbr> with a specialized program in programming years ago but I feel like I never really reinforced that which I learned there, and I never had web development as one of my classes in university.",
                 "DESCRIPTION_ABOUT_03": "So here I am trying to speedrun the process. If you have any criticism, I encourage you to share it.",
                 "DESCRIPTION_ABOUT_04": "As a note I am making this page without AI assistance, just good 'ole documentation, code re-using and whatever my damaged brain manages to learn from 10 year old videos with horrible audio quality, apologies for any typos or if it looks... <em>Eh</em>.",
                 "DESCRIPTION_ABOUT_05": "Have a picture of me as a treat!",
@@ -60,7 +60,7 @@ var data = {
 
                 "ABOUT_TITLE": "Sobre esto",
                 "DESCRIPTION_ABOUT_01": "Este fue un sitio web que hice especificamente para re-aprender lo basico de desarrollo web.",
-                "DESCRIPTION_ABOUT_02": "Fui a un <abbr title=\"Preparatoria / CBTis051\">Bachillerato Tecnologico</abbr> con un programa especializado en programacion hace años pero siento que nunca reforce aquello que aprendi ahi, y nunca se me impartieron clases de desarrollo web en mi unversidad.",
+                "DESCRIPTION_ABOUT_02": "Fui a un <abbr title=\"Preparatoria / CBTis\">Bachillerato Tecnologico</abbr> con un programa especializado en programacion hace años pero siento que nunca reforce aquello que aprendi ahi, y nunca se me impartieron clases de desarrollo web en mi unversidad.",
                 "DESCRIPTION_ABOUT_03": "E aqui estoy, intentando apresurar el proceso. Si tienes alguna critica te animo a compartirla.",
                 "DESCRIPTION_ABOUT_04": "Como nota estoy intentando hacer esta pagina sin asistencia de AI, solo documentacion, re-uso de codigo y cualquier cosa que mi dañado cerebro consiga aprender de videos de hace 10 años con horrible calidad de audio, una disculpa por cualquier error de tipografia o si se ve... <em>Eh</em>.",
                 "DESCRIPTION_ABOUT_05": "Ten una foto mia!",
